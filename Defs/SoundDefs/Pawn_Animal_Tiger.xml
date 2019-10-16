@@ -2,7 +2,7 @@
 <Defs>
   
   <SoundDef>
-    <defName>AEXP_Pawn_Hyena_Angry</defName>
+    <defName>AEXP_Pawn_Tiger_Angry</defName>
     <context>MapOnly</context>
     <eventNames />
     <maxVoices>2</maxVoices>
@@ -10,7 +10,7 @@
       <li>
         <grains>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawns/Hyena/Pawn_Hyena_Angry</clipFolderPath>
+            <clipFolderPath>Pawns/Tiger/Pawn_Tiger_Angry</clipFolderPath>
           </li>
         </grains>
         <volumeRange>
@@ -31,14 +31,14 @@
   </SoundDef>
 
   <SoundDef>
-    <defName>AEXP_Pawn_Hyena_Wounded</defName>
+    <defName>AEXP_Pawn_Tiger_Wounded</defName>
     <context>MapOnly</context>
     <eventNames />
     <subSounds>
       <li>
         <grains>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawns/Hyena/Pawn_Hyena_Wounded</clipFolderPath>
+            <clipFolderPath>Pawns/Tiger/Pawn_Tiger_Wounded</clipFolderPath>
           </li>
         </grains>
         <volumeRange>
@@ -60,14 +60,14 @@
   </SoundDef>
 
   <SoundDef>
-    <defName>AEXP_Pawn_Hyena_Death</defName>
+    <defName>AEXP_Pawn_Tiger_Death</defName>
     <context>MapOnly</context>
     <eventNames />
     <subSounds>
       <li>
         <grains>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawns/Hyena/Pawn_Hyena_Death</clipFolderPath>
+            <clipFolderPath>Pawns/Tiger/Pawn_Tiger_Death</clipFolderPath>
           </li>
         </grains>
         <volumeRange>
@@ -88,14 +88,14 @@
   </SoundDef>
   
     <SoundDef>
-    <defName>AEXP_Pawn_Hyena_Call</defName>
+    <defName>AEXP_Pawn_Tiger_Call</defName>
     <context>MapOnly</context>
     <eventNames />
     <subSounds>
       <li>
         <grains>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawns/Hyena/Pawn_Hyena_Call</clipFolderPath>
+            <clipFolderPath>Pawns/Tiger/Pawn_Tiger_Call</clipFolderPath>
           </li>
         </grains>
         <volumeRange>

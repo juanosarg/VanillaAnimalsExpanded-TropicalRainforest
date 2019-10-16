@@ -311,10 +311,10 @@
 				<li>
 					<def>AnimalAdult</def>
 					<minAge>0.4</minAge>
-					<soundWounded>Pawn_Monkey_Wounded</soundWounded>
-					<soundDeath>Pawn_Monkey_Death</soundDeath>
-					<soundCall>Pawn_Monkey_Call</soundCall>
-					<soundAngry>Pawn_Monkey_Angry</soundAngry>
+					<soundWounded>AEXP_Pawn_Lemur_Wounded</soundWounded>
+					<soundDeath>AEXP_Pawn_Lemur_Death</soundDeath>
+					<soundCall>AEXP_Pawn_Lemur_Call</soundCall>
+					<soundAngry>AEXP_Pawn_Lemur_Angry</soundAngry>
 				</li>
 			</lifeStageAges>
 			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
@@ -460,10 +460,10 @@
 				<li>
 					<def>AnimalAdult</def>
 					<minAge>0.4</minAge>
-					<soundWounded>Pawn_Monkey_Wounded</soundWounded>
-					<soundDeath>Pawn_Monkey_Death</soundDeath>
-					<soundCall>Pawn_Monkey_Call</soundCall>
-					<soundAngry>Pawn_Monkey_Angry</soundAngry>
+					<soundWounded>AEXP_Pawn_Mandrill_Wounded</soundWounded>
+					<soundDeath>AEXP_Pawn_Mandrill_Death</soundDeath>
+					<soundCall>AEXP_Pawn_Mandrill_Call</soundCall>
+					<soundAngry>AEXP_Pawn_Mandrill_Angry</soundAngry>
 				</li>
 			</lifeStageAges>
 			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
@@ -718,11 +718,13 @@
 
 
 
-	<ThingDef ParentName="BigCatThingBase">
+	<ThingDef ParentName="AnimalThingBase">
 		<defName>AEXP_Tiger</defName>
 		<label>tiger</label>
 		<description>The tiger is the largest species among the Felidae. It is most recognisable for its dark vertical stripes on reddish-orange fur with a lighter underside. It is an apex predator, territorial and generally solitary. In the wild, tigers mostly feed on large and medium-sized mammals, particularly ungulates.</description>
 		<statBases>
+			<MoveSpeed>5.0</MoveSpeed>
+
 			<ComfyTemperatureMin>-25</ComfyTemperatureMin>
 			<MarketValue>650</MarketValue>
 		</statBases>
@@ -791,6 +793,16 @@
 			</li>
 		</tools>
 		<race>      
+			<body>QuadrupedAnimalWithPawsAndTail</body>
+			<herdAnimal>false</herdAnimal>
+			<predator>true</predator>
+			<baseHungerRate>0.3</baseHungerRate>
+			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
+			<wildness>0.80</wildness>
+			<trainability>Advanced</trainability>
+			<manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.10</manhunterOnDamageChance>
+			<gestationPeriodDays>26</gestationPeriodDays>
 			<maxPreyBodySize>2.0</maxPreyBodySize>
 			<baseBodySize>1.8</baseBodySize>
 			<baseHealthScale>1.75</baseHealthScale>     
@@ -799,6 +811,27 @@
 			<wildBiomes>
 				<TropicalRainforest>0.15</TropicalRainforest>
 			</wildBiomes>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.25</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.5</minAge>
+					<soundWounded>AEXP_Pawn_Tiger_Wounded</soundWounded>
+					<soundDeath>AEXP_Pawn_Tiger_Death</soundDeath>
+					<soundAngry>AEXP_Pawn_Tiger_Angry</soundAngry>
+					<soundCall>AEXP_Pawn_Tiger_Call</soundCall>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
 		</race>
 	</ThingDef>
 

@@ -2,7 +2,7 @@
 <Defs>
   
   <SoundDef>
-    <defName>AEXP_Pawn_Lion_Angry</defName>
+    <defName>AEXP_Pawn_Gorilla_Angry</defName>
     <context>MapOnly</context>
     <eventNames />
     <maxVoices>2</maxVoices>
@@ -10,12 +10,12 @@
       <li>
         <grains>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawns/Lion/Pawn_Lion_Angry</clipFolderPath>
+            <clipFolderPath>Pawns/Gorilla/Pawn_Gorilla_Angry</clipFolderPath>
           </li>
         </grains>
         <volumeRange>
-          <min>25</min>
-          <max>25</max>
+          <min>15</min>
+          <max>15</max>
         </volumeRange>
         <pitchRange>
           <min>0.9</min>
@@ -31,14 +31,14 @@
   </SoundDef>
 
   <SoundDef>
-    <defName>AEXP_Pawn_Lion_Wounded</defName>
+    <defName>AEXP_Pawn_Gorilla_Wounded</defName>
     <context>MapOnly</context>
     <eventNames />
     <subSounds>
       <li>
         <grains>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawns/Lion/Pawn_Lion_Wounded</clipFolderPath>
+            <clipFolderPath>Pawns/Gorilla/Pawn_Gorilla_Wounded</clipFolderPath>
           </li>
         </grains>
         <volumeRange>
@@ -60,14 +60,14 @@
   </SoundDef>
 
   <SoundDef>
-    <defName>AEXP_Pawn_Lion_Death</defName>
+    <defName>AEXP_Pawn_Gorilla_Death</defName>
     <context>MapOnly</context>
     <eventNames />
     <subSounds>
       <li>
         <grains>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawns/Lion/Pawn_Lion_Death</clipFolderPath>
+            <clipFolderPath>Pawns/Gorilla/Pawn_Gorilla_Death</clipFolderPath>
           </li>
         </grains>
         <volumeRange>
@@ -88,22 +88,22 @@
   </SoundDef>
   
     <SoundDef>
-    <defName>AEXP_Pawn_Lion_Call</defName>
+    <defName>AEXP_Pawn_Gorilla_Call</defName>
     <context>MapOnly</context>
     <eventNames />
     <subSounds>
       <li>
         <grains>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawns/Lion/Pawn_Lion_Call</clipFolderPath>
+            <clipFolderPath>Pawns/Gorilla/Pawn_Gorilla_Call</clipFolderPath>
           </li>
         </grains>
         <volumeRange>
-          <min>30</min>
-          <max>30</max>
+          <min>15</min>
+          <max>15</max>
         </volumeRange>
         <pitchRange>
-          <min>0.85</min>
+          <min>0.9</min>
           <max>1.1</max>
         </pitchRange>
         <distRange>
