@@ -2,7 +2,7 @@
 <Defs>
   
   <SoundDef>
-    <defName>AEXP_Pawn_Gorilla_Angry</defName>
+    <defName>AEXP_Pawn_Tiger_Angry</defName>
     <context>MapOnly</context>
     <eventNames />
     <maxVoices>2</maxVoices>
@@ -10,12 +10,12 @@
       <li>
         <grains>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawns/Gorilla/Pawn_Gorilla_Angry</clipFolderPath>
+            <clipFolderPath>Pawns/Tiger/Pawn_Tiger_Angry</clipFolderPath>
           </li>
         </grains>
         <volumeRange>
-          <min>15</min>
-          <max>15</max>
+          <min>35</min>
+          <max>35</max>
         </volumeRange>
         <pitchRange>
           <min>0.9</min>
@@ -31,19 +31,19 @@
   </SoundDef>
 
   <SoundDef>
-    <defName>AEXP_Pawn_Gorilla_Wounded</defName>
+    <defName>AEXP_Pawn_Tiger_Wounded</defName>
     <context>MapOnly</context>
     <eventNames />
     <subSounds>
       <li>
         <grains>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawns/Gorilla/Pawn_Gorilla_Wounded</clipFolderPath>
+            <clipFolderPath>Pawns/Tiger/Pawn_Tiger_Wounded</clipFolderPath>
           </li>
         </grains>
         <volumeRange>
-          <min>17</min>
-          <max>17</max>
+          <min>37</min>
+          <max>37</max>
         </volumeRange>
         <pitchRange>
           <min>0.9</min>
@@ -60,19 +60,19 @@
   </SoundDef>
 
   <SoundDef>
-    <defName>AEXP_Pawn_Gorilla_Death</defName>
+    <defName>AEXP_Pawn_Tiger_Death</defName>
     <context>MapOnly</context>
     <eventNames />
     <subSounds>
       <li>
         <grains>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawns/Gorilla/Pawn_Gorilla_Death</clipFolderPath>
+            <clipFolderPath>Pawns/Tiger/Pawn_Tiger_Death</clipFolderPath>
           </li>
         </grains>
         <volumeRange>
-          <min>30</min>
-          <max>30</max>
+          <min>40</min>
+          <max>40</max>
         </volumeRange>
         <pitchRange>
           <min>0.9</min>
@@ -88,19 +88,19 @@
   </SoundDef>
   
     <SoundDef>
-    <defName>AEXP_Pawn_Gorilla_Call</defName>
+    <defName>AEXP_Pawn_Tiger_Call</defName>
     <context>MapOnly</context>
     <eventNames />
     <subSounds>
       <li>
         <grains>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawns/Gorilla/Pawn_Gorilla_Call</clipFolderPath>
+            <clipFolderPath>Pawns/Tiger/Pawn_Tiger_Call</clipFolderPath>
           </li>
         </grains>
         <volumeRange>
-          <min>15</min>
-          <max>15</max>
+          <min>35</min>
+          <max>35</max>
         </volumeRange>
         <pitchRange>
           <min>0.9</min>
